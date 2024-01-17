@@ -77,3 +77,14 @@ require('bufferline').setup({
     },
   },
 })
+
+-- Move between opened buffers.
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 1<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 2<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 3<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 4<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 5<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 6<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 7<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 8<CR>')
+vim.keymap.set('n', '<Leader>1', ':BufferLineGoToBuffer 9<CR>')

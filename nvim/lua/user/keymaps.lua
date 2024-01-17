@@ -7,7 +7,11 @@ vim.keymap.set('v', '<', '<gv')
 vim.keymap.set('v', '>', '>gv')
 
 -- Disable exit typo.
-vim.keymap.set('n', 'q:', ':q')
+vim.keymap.set('n', ':Q', ':q')
+
+-- Remap <Esc>
+vim.keymap.set('i', ';l', '<Esc>')
+vim.keymap.set('v', ';l', '<Esc>')
 
 -- Replace visual selection without copying it.
 vim.keymap.set('v', 'p', '"_dP')
